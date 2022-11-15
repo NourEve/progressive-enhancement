@@ -1,0 +1,17 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #302A2A ;
+}
+
+a {
+    color: #302A2A;
+    font-size: 16px;
+}
+a:visited {
+    color: #d34f73;
+}
+a:hover {
+    color: #a37b73;
+}
