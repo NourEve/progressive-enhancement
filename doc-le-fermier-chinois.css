@@ -76,13 +76,14 @@ q{
 
 header h1 {
     background-color: yellow;
+    text-align: center;
 }
 
 .Bad {
-    color: red;
+    color: rgb(194, 21, 21);
 }
 .Good {
-    color: green;
+    color: rgb(44, 116, 44);
 }
 
 table {
@@ -120,16 +121,13 @@ li:nth-child(3){
 
 p:first-of-type {
     font-weight: bold;
-    margin-top: 125px;
-}
-
-img {
-    width: 500px;
-    height: auto;
+    margin-top: 200px;
 }
 
 .first_img {
     float:right;
+    margin-bottom: 20px;
+    margin-top: -50px;
 }
 
 .clearfloat{
@@ -140,6 +138,7 @@ figure:first-of-type{
     float: left;
     margin-left: -10px;
     margin-bottom: 30px;
+    margin-top: 90px;
 }
 .third_float{
     float: right;
@@ -147,4 +146,12 @@ figure:first-of-type{
     margin-top: 10px;
 }
 
+h2:first-of-type{
+    margin-top: 40px;
+}
+
+.title_story{
+    margin-top: 120px;
+    margin-bottom: -10px;
+}
 
