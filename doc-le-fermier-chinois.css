@@ -4,14 +4,115 @@ p {
     font-size: 16px;
     color: #302A2A ;
 }
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #302A2A ;
+}
 
 a {
     color: #302A2A;
     font-size: 16px;
 }
-a:visited {
+a:visited{
     color: #d34f73;
 }
 a:hover {
     color: #a37b73;
+}
+a:active {
+    color: #d34f73;
+}
+
+main{
+    max-width: 90%;
+    margin: auto;
+}
+
+body{
+    background: -webkit-linear-gradient(-25deg, rgb(206, 146, 162), rgb(169, 141, 136));
+    background: linear-gradient(-25deg, rgb(206, 146, 162), rgb(169, 141, 136));
+    background-image: url("flower-7540214_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote{
+    width: 50%;
+    margin-left: 25%;
+}
+
+q{
+    display: flow-root;
+    font-size: 160%;
+    background-color: #c2c1c0;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+#citation2{
+    width: 50%;
+    margin-left: 25%;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.villagers{
+    border-left: 2px solid #d34f73;
+}
+.farmer{
+    border-left: 2px solid #a37b73;
+}
+
+header h1 {
+    background-color: yellow;
+}
+
+.Bad {
+    color: red;
+}
+.Good {
+    color: green;
+}
+
+table {
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(168, 162, 162);
+}
+table tr:nth-child(even){
+    background-color:white;
+}
+
+li:nth-child(1){
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li:nth-child(2){
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li:nth-child(3){
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p:first-of-type {
+    font-weight: bold;
 }
