@@ -1,11 +1,15 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(OpenSans-VariableFont_wdth,wght.ttf),
+        url(OpenSans-Italic-VariableFont_wdth,wght.ttf);
+}
+
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
     font-size: 16px;
     color: #302A2A ;
 }
 ul {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
     font-size: 16px;
     color: #302A2A ;
@@ -28,6 +32,7 @@ a:active {
 main{
     max-width: 90%;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -115,4 +120,31 @@ li:nth-child(3){
 
 p:first-of-type {
     font-weight: bold;
+    margin-top: 125px;
 }
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.first_img {
+    float:right;
+}
+
+.clearfloat{
+    clear: both;
+}
+
+figure:first-of-type{
+    float: left;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+.third_float{
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
